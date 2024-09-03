@@ -1,0 +1,32 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .card {
+    flex: 1 1 calc(25% - 20px); 
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 1200px) {
+    .card {
+      flex: 1 1 calc(33.33% - 20px); 
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .card {
+      flex: 1 1 calc(50% - 20px); 
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .card {
+      flex: 1 1 100%; 
+    }
+  }
+  

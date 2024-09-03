@@ -1,0 +1,23 @@
+body {
+  scrollbar-gutter: stable;
+  padding-right: 15px;
+  overflow-y: scroll;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f1f1f1;
+}
+
+.product-list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+.content {
+  margin-top: 80px; 
+  padding-top: 20px;
+  box-sizing: border-box;
+}
